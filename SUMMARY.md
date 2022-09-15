@@ -32,3 +32,7 @@
 * [Chapter 6](ddia-notes/chapter-6.md)
 * [Chapter 7](ddia-notes/chapter-7.md)
 * [Chapter 8](ddia-notes/chapter-8.md)
+* [Chapter 9](ddia-notes/chapter-9.md)
+* [Page 10](ddia-notes/page-10.md)
+* [Page 11](ddia-notes/page-11.md)
+* [Page 12](ddia-notes/page-12.md)
