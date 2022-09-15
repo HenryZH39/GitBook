@@ -19,6 +19,7 @@
 * [Java Notes](java/java-notes/README.md)
   * [BFS](java/java-notes/bfs.md)
   * [DFS](java/java-notes/dfs.md)
+  * [Binary Search](java/java-notes/BinarySearch.md)
 
 ## SQL
 

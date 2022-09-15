@@ -1,11 +1,8 @@
 ---
 description: Psudo code below
 ---
-
 # DFS
-
-* Pre-order : root – left – right
-
+- Pre-order : root – left – right
 ```java
 stack.push(root)
 
