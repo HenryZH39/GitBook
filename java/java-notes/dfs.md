@@ -1,7 +1,7 @@
+---
+description: Psudo code below
+---
 # DFS
----
-description: SELF - LEARNIG NOTES
----
 - Pre-order : root – left – right
 ```java
 stack.push(root)
