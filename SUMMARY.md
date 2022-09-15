@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Profile](README.md)
+* [BFS](README.md)
