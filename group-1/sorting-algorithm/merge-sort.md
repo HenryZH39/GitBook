@@ -1,0 +1,52 @@
+# Merge Sort
+
+* Best case TC : O(N \* logN)
+* Average case TC : O(N \* logN)
+* Worst case TC: O(N \* logN)
+
+```java
+class Solution {
+    public int[] sortArray(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return null;
+        }
+        int n = nums.length;
+        mergeSort(nums, 0, n - 1);
+        return nums;
+    }
+    
+    public void mergeSort(int[] nums, int left, int right) {
+        if (left >= right) {
+            return;
+        }
+        int mid = left + (right - left) / 2;
+        mergeSort(nums, left, mid);
+        mergeSort(nums, mid + 1, right);
+        merge(nums, left, mid, right);
+    }
+    
+    public void merge(int[] nums, int left, int mid, int right) {
+        int[] temp = new int[right - left + 1];
+        int leftBound = left;
+        int rightBound = mid + 1;
+        int index = 0;
+        while (leftBound <= mid && rightBound <= right) {
+            if (nums[leftBound] <= nums[rightBound]) {
+                temp[index++] = nums[leftBound++];
+            } else {
+                temp[index++] = nums[rightBound++];
+            }
+        }
+        while (leftBound <= mid) {
+            temp[index++] = nums[leftBound++];
+        }
+        while (rightBound <= right) {
+            temp[index++] = nums[rightBound++];
+        }
+        int k = 0;
+        for (int i = left; i <= right; i++) {
+            nums[i] = temp[k++];
+        }
+    }
+}
+```
