@@ -41,3 +41,9 @@
   * [Chapter 10](reading-notes/ddia-notes/chapter-10.md)
   * [Chapter 11](reading-notes/ddia-notes/chapter-11.md)
   * [Chapter 12](reading-notes/ddia-notes/chapter-12.md)
+
+## Others
+
+* [English Words](others/english-words/README.md)
+  * [Emmm](others/english-words/emmm.md)
+  * [Daily](others/english-words/daily.md)
