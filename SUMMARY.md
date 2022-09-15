@@ -14,25 +14,29 @@
   * [6. Insertion Sort](algorithms/sorting-algorithm/6.-insertion-sort.md)
   * [7. Bucket Sort](algorithms/sorting-algorithm/7.-bucket-sort.md)
 
-## Java notes
+## JAVA
 
-* [BFS](java-notes/bfs.md)
+* [Java Notes](java/java-notes/README.md)
+  * [BFS](java/java-notes/bfs.md)
+  * [DFS](java/java-notes/dfs.md)
 
-## SQL NOTES
+## SQL
 
-* [1. Build Table](sql-notes/1.-build-table.md)
+* [SQL Notes](sql/sql-notes/README.md)
+  * [1. Create](sql/sql-notes/1.-create.md)
+  * [2. Read](sql/sql-notes/2.-read.md)
 
-## DDIA NOTES
+## READING NOTES
 
-* [Chapter 1](ddia-notes/chapter-1.md)
-* [Chapter 2](ddia-notes/chapter-2.md)
-* [Chapter 3](ddia-notes/chapter-3.md)
-* [Chapter 4](ddia-notes/chapter-4.md)
-* [Chapter 5](ddia-notes/chapter-5.md)
-* [Chapter 6](ddia-notes/chapter-6.md)
-* [Chapter 7](ddia-notes/chapter-7.md)
-* [Chapter 8](ddia-notes/chapter-8.md)
-* [Chapter 9](ddia-notes/chapter-9.md)
-* [Chapter 10](ddia-notes/chapter-10.md)
-* [Chapter 11](ddia-notes/chapter-11.md)
-* [Chapter 12](ddia-notes/chapter-12.md)
+* [DDIA NOTES](reading-notes/ddia-notes.md)
+* [Chapter 2](reading-notes/chapter-2.md)
+* [Chapter 3](reading-notes/chapter-3.md)
+* [Chapter 4](reading-notes/chapter-4.md)
+* [Chapter 5](reading-notes/chapter-5.md)
+* [Chapter 6](reading-notes/chapter-6.md)
+* [Chapter 7](reading-notes/chapter-7.md)
+* [Chapter 8](reading-notes/chapter-8.md)
+* [Chapter 9](reading-notes/chapter-9.md)
+* [Chapter 10](reading-notes/chapter-10.md)
+* [Chapter 11](reading-notes/chapter-11.md)
+* [Chapter 12](reading-notes/chapter-12.md)
