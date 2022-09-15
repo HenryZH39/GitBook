@@ -10,9 +10,9 @@
   * [2. Heap Sort](group-1/sorting-algorithm/2.-heap-sort.md)
   * [3. Quick Sort](group-1/sorting-algorithm/3.-quick-sort.md)
   * [4. Bubble Sort](group-1/sorting-algorithm/4.-bubble-sort.md)
-  * [Page 2](group-1/sorting-algorithm/page-2.md)
-  * [Page 3](group-1/sorting-algorithm/page-3.md)
-  * [Page 4](group-1/sorting-algorithm/page-4.md)
+  * [5. Selection Sort](group-1/sorting-algorithm/5.-selection-sort.md)
+  * [6. Insertion Sort](group-1/sorting-algorithm/6.-insertion-sort.md)
+  * [7. Bucket Sort](group-1/sorting-algorithm/7.-bucket-sort.md)
 
 ## Group 2
 
