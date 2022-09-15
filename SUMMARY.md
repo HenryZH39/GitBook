@@ -29,6 +29,7 @@
 ## READING NOTES
 
 * [DDIA NOTES](reading-notes/ddia-notes/README.md)
+  * [Chapter 1](reading-notes/ddia-notes/chapter-1.md)
   * [Chapter 2](reading-notes/ddia-notes/chapter-2.md)
   * [Chapter 3](reading-notes/ddia-notes/chapter-3.md)
   * [Chapter 4](reading-notes/ddia-notes/chapter-4.md)
