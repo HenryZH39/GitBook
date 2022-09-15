@@ -1,3 +1,3 @@
 # Table of contents
 
-* [BFS](README.md)
+* [Create table](README.md)
