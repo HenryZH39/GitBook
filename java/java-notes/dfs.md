@@ -1,26 +1,36 @@
 ---
 description: Psudo code below
 ---
+<<<<<<< HEAD
 # DFS
 - Pre-order : root – left – right
+=======
+
+# DFS
+
+* Pre-order : root – left – right
+
+>>>>>>> 88296db325315a8f07deee2e28bb9a37f791d4b4
 ```java
 stack.push(root)
 
 while (stack not empty):
 
-            curr = stack.pop();
+            curr = stack.pop();
 
-            add to listl
+            add to listl
 
-            if has right node
+            if has right node
 
-               stack.push(curr.right)
+               stack.push(curr.right)
 
-            if has left node
+            if has left node
 
-               stack.push(curr.left)
+               stack.push(curr.left)
 ```
-- In-order : left – root – right
+
+* In-order : left – root – right
+
 ```java
 curr = root
 
@@ -30,15 +40,17 @@ while (stack not empty || curr != null):
 	
 		stack.push(curr)
 
-        curr = curr.left
+        curr = curr.left
 
-        pop the last node and add to List
+        pop the last node and add to List
 
-        if node.right has right node
+        if node.right has right node
 
-           curr  = curr. right
+           curr  = curr. right
 ```
-- Post-order : left – right – root
+
+* Post-order : left – right – root
+
 ```java
 curr = root;
 
@@ -53,7 +65,7 @@ while (curr != null || stack not empty):
 
 		check the stack.peek node
 
-		if  has right node and not visited the node
+		if  has right node and not visited the node
 
 			curr = peek.right
 
@@ -61,6 +73,5 @@ while (curr != null || stack not empty):
 
 			record the right node have visited
 
-			lastvist  = stack.pop()
-
+			lastvist  = stack.pop()
 ```
