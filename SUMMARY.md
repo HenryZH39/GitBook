@@ -16,8 +16,19 @@
 
 ## Java notes
 
-* [Page 1](java-notes/page-1.md)
+* [BFS](java-notes/bfs.md)
 
 ## SQL NOTES
 
-* [Page 2](sql-notes/page-2.md)
+* [1. Build Table](sql-notes/1.-build-table.md)
+
+## DDIA NOTES
+
+* [Chapter 1](ddia-notes/chapter-1.md)
+* [Chapter 2](ddia-notes/chapter-2.md)
+* [Chapter 3](ddia-notes/chapter-3.md)
+* [Chapter 4](ddia-notes/chapter-4.md)
+* [Chapter 5](ddia-notes/chapter-5.md)
+* [Chapter 6](ddia-notes/chapter-6.md)
+* [Chapter 7](ddia-notes/chapter-7.md)
+* [Chapter 8](ddia-notes/chapter-8.md)
