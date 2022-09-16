@@ -13,13 +13,26 @@
   * [5. Selection Sort](algorithms/sorting-algorithm/5.-selection-sort.md)
   * [6. Insertion Sort](algorithms/sorting-algorithm/6.-insertion-sort.md)
   * [7. Bucket Sort](algorithms/sorting-algorithm/7.-bucket-sort.md)
-
+* [Backtracking](algorithms/Backtracking.md)
+* [Union - Find](algorithms/sorting-algorithm/Union-Find.md)
+* [Monotonic Stack](algorithms/Monotonic%20Stack.md)
+* [KMP algorithm](algorithms/KMP%20algorithm.md)
+  
 ## JAVA
 
 * [Java Notes](java/java-notes/README.md)
+  * [Array](java/java-notes/Array.md)
+  * [String](java/java-notes/String.md)
+  * [List](java/java-notes/List.md)
+  * [Heap(PQ)](java/java-notes/Heap(PQ).md)
+  * [HashMap](java/java-notes/HashMap.md)
   * [BFS](java/java-notes/bfs.md)
   * [DFS](java/java-notes/dfs.md)
   * [Binary Search](java/java-notes/BinarySearch.md)
+  * [Bit Representaion](java/java-notes/Bit%20Representation.md)
+  * [Trie](java/java-notes/Trie.md)
+  * [LinkedHashMap](java/java-notes/LinkedHashMap.md)
+  * [TIPS](java/java-notes/Tips.md)
 
 ## SQL
 
