@@ -16,7 +16,10 @@
 * [Backtracking](algorithms/Backtracking.md)
 * [Union - Find](algorithms/sorting-algorithm/Union-Find.md)
 * [Monotonic Stack](algorithms/Monotonic%20Stack.md)
+* [GCD(greatest common divisor)](algorithms/GCD(greatest%20common%20divisor).md)
 * [KMP algorithm](algorithms/KMP%20algorithm.md)
+* [K Sum for K Arrays](algorithms/K%20Sum%20for%20K%20Arrays.md)
+* [K Sum in 1 Arrays](algorithms/K%20Sum%20in%201%20Array.md)
   
 ## JAVA
 
@@ -24,8 +27,11 @@
   * [Array](java/java-notes/Array.md)
   * [String](java/java-notes/String.md)
   * [List](java/java-notes/List.md)
+  * [Set](java/java-notes/Set.md)
+  * [LinkedList](java/java-notes/LinkedList.md)
   * [Heap(PQ)](java/java-notes/Heap(PQ).md)
   * [HashMap](java/java-notes/HashMap.md)
+  * [Stack & Queue](java/java-notes/Stack%20&%20Queue.md)
   * [BFS](java/java-notes/bfs.md)
   * [DFS](java/java-notes/dfs.md)
   * [Binary Search](java/java-notes/BinarySearch.md)

@@ -23,3 +23,6 @@ or
 ```java
 	Min + (int)(Math.random() * ((Max - Min) + 1))
 ```
+### 4. Number of subarray
+- For size N <br>
+	the total of subarray = N x ( N + 1) / 2
