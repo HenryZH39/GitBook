@@ -43,8 +43,17 @@
 ## SQL
 
 * [SQL Notes](sql/sql-notes/README.md)
-  * [1. Create](sql/sql-notes/1.-create.md)
-  * [2. Read](sql/sql-notes/2.-read.md)
+  * [1. Sytax](sql/sql-notes/1.-Syntax.md)
+  * [2. Data Types](sql/sql-notes/2.-Data%20Types.md)
+  * [3. Column Attribute Functions](sql/sql-notes/3.-Column%20Attribute%20Functions.md)
+  * [4. JSON](sql/sql-notes/4.-JSON.md)
+  * [5. SELECT](sql/sql-notes/5.-SELECT.md)
+  * [6. Aggregate Functions](sql/sql-notes/6.-Aggregate%20Functions.md)
+  * [7. Relationships](sql/sql-notes/7.-Relationships.md)
+  * [8. JOIN](sql/sql-notes/8.-JOIN.md)
+  * [9. Subqueries](sql/sql-notes/9.-Subqueries.md)
+  * [10. Tracnsaction](sql/sql-notes/10.-Tracnsaction.md)
+  * [11. ACID](sql/sql-notes/11.-ACID.md)
 
 ## READING NOTES
 
