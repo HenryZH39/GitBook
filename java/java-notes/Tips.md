@@ -26,3 +26,9 @@ or
 ### 4. Number of subarray
 - For size N <br>
 	the total of subarray = N x ( N + 1) / 2
+
+### 5. Remove from ArrayList and LinkedList TC
+- ArrayList:
+  remove() : O(N)
+- LinkedList :
+  remove() : O(1)

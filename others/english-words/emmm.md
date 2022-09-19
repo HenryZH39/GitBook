@@ -7,3 +7,9 @@
 * n√ a : n th root of a
 * enum 枚举
 * extract 提炼
+* QPS : Queries Per Second
+* Large flow and high concurrency
+* Over scale
+* malicious ticket grab 恶意抢票
+* DataBase crash
+* 
