@@ -1,5 +1,11 @@
 # PriorityQueue (Heap)
-### 1. Binary Heap
+### 1. Time Complexity for PQ method
+- O(log n) time for the enqueing and dequeing methods (offer, poll, remove() and add)
+
+- O(n) for the remove(Object) and contains(Object) methods
+
+- O(1) for the retrieval methods (peek, element, and size)
+### 2. Binary Heap
 - Binary Heap
 	1. Child.val < parent.val
 	2.  Always complete tree

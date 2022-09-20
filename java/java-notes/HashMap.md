@@ -59,3 +59,44 @@ map.lastKey();
 //Returns the greatest key strictly less than the given key, or null if there is no such key.
 map.lowerKey(2);
 ```
+
+### 3.Get First Key in HashMap
+```java
+ Map<String,String> map = new HashMap<>();
+ Map.Entry<String,String> entry = map.entrySet().iterator().next();
+ String key = entry.getKey();
+ String key = map.keySet().iterator().next()
+ String value = entry.getValue();
+```
+
+### 4.LinkedHashMap:
+- LeetCode[146. LRU Cache](https://leetcode.com/problems/lru-cache/)
+```java
+class LRUCache {
+    private LinkedHashMap<Integer, Integer> map;
+    private int capacity;
+    public LRUCache(int capacity) {
+        this.map = new LinkedHashMap<>();
+        this.capacity = capacity;
+    }
+    
+    public int get(int key) {
+        if (!map.containsKey(key)) {
+            return -1;
+        }
+        int val = map.get(key);
+        map.remove(key);
+        map.put(key, val);
+        return val;
+    }
+    
+    public void put(int key, int value) {
+        if (map.containsKey(key)) {
+            map.remove(key);
+        } else if (map.size() + 1 > capacity) {
+            map.remove(map.keySet().iterator().next());
+        }
+        map.put(key, value);
+    }
+}
+```
