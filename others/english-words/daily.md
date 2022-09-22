@@ -36,5 +36,3 @@
 * fit the bill 符合要求
 * outdoorsy 喜欢户外运动
 * fixer-upper 待修缮的房屋
-* unrelenting 持续的
-* 

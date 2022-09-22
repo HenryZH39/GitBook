@@ -15,12 +15,12 @@
   * [7. Bucket Sort](algorithms/sorting-algorithm/7.-bucket-sort.md)
 * [Backtracking](algorithms/Backtracking.md)
 * [Union - Find](algorithms/sorting-algorithm/Union-Find.md)
-* [Monotonic Stack](algorithms/Monotonic%20Stack.md)
-* [GCD(greatest common divisor)](algorithms/GCD(greatest%20common%20divisor).md)
-* [KMP algorithm](algorithms/KMP%20algorithm.md)
-* [K Sum for K Arrays](algorithms/K%20Sum%20for%20K%20Arrays.md)
-* [K Sum in 1 Arrays](algorithms/K%20Sum%20in%201%20Array.md)
-  
+* [Monotonic Stack](<algorithms/Monotonic Stack.md>)
+* [GCD(greatest common divisor)](<algorithms/GCD(greatest common divisor).md>)
+* [KMP algorithm](<algorithms/KMP algorithm.md>)
+* [K Sum for K Arrays](<algorithms/K Sum for K Arrays.md>)
+* [K Sum in 1 Arrays](<algorithms/K Sum in 1 Array.md>)
+
 ## JAVA
 
 * [Java Notes](java/java-notes/README.md)
@@ -29,13 +29,13 @@
   * [List](java/java-notes/List.md)
   * [Set](java/java-notes/Set.md)
   * [LinkedList](java/java-notes/LinkedList.md)
-  * [Heap(PQ)](java/java-notes/Heap(PQ).md)
+  * [Heap(PQ)](java/java-notes/Heap\(PQ\).md)
   * [HashMap](java/java-notes/HashMap.md)
-  * [Stack & Queue](java/java-notes/Stack%20&%20Queue.md)
+  * [Stack & Queue](<java/java-notes/Stack & Queue.md>)
   * [BFS](java/java-notes/bfs.md)
   * [DFS](java/java-notes/dfs.md)
   * [Binary Search](java/java-notes/BinarySearch.md)
-  * [Bit Representaion](java/java-notes/Bit%20Representation.md)
+  * [Bit Representaion](<java/java-notes/Bit Representation.md>)
   * [Trie](java/java-notes/Trie.md)
   * [LinkedHashMap](java/java-notes/LinkedHashMap.md)
   * [TIPS](java/java-notes/Tips.md)
@@ -44,11 +44,11 @@
 
 * [SQL Notes](sql/sql-notes/README.md)
   * [1. Sytax](sql/sql-notes/1.-Syntax.md)
-  * [2. Data Types](sql/sql-notes/2.-Data%20Types.md)
-  * [3. Column Attribute Functions](sql/sql-notes/3.-Column%20Attribute%20Functions.md)
+  * [2. Data Types](<sql/sql-notes/2.-Data Types.md>)
+  * [3. Column Attribute Functions](<sql/sql-notes/3.-Column Attribute Functions.md>)
   * [4. JSON](sql/sql-notes/4.-JSON.md)
   * [5. SELECT](sql/sql-notes/5.-SELECT.md)
-  * [6. Aggregate Functions](sql/sql-notes/6.-Aggregate%20Functions.md)
+  * [6. Aggregate Functions](<sql/sql-notes/6.-Aggregate Functions.md>)
   * [7. Relationships](sql/sql-notes/7.-Relationships.md)
   * [8. JOIN](sql/sql-notes/8.-JOIN.md)
   * [9. Subqueries](sql/sql-notes/9.-Subqueries.md)
@@ -70,8 +70,7 @@
   * [Chapter 10](reading-notes/ddia-notes/chapter-10.md)
   * [Chapter 11](reading-notes/ddia-notes/chapter-11.md)
   * [Chapter 12](reading-notes/ddia-notes/chapter-12.md)
-* [System Design Interview NOTES](reading-notes/System%20Design%20Interview/README.md)
-  * [Notes](reading-notes/System%20Design%20Interview/Notes.md)
+* [System Design Interview NOTES](reading-notes/system-design-interview-notes.md)
 
 ## Others
 
