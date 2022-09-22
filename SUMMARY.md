@@ -70,8 +70,6 @@
   * [Chapter 10](reading-notes/ddia-notes/chapter-10.md)
   * [Chapter 11](reading-notes/ddia-notes/chapter-11.md)
   * [Chapter 12](reading-notes/ddia-notes/chapter-12.md)
-* [System Design Interview NOTES](reading-notes/System%20Design%20Interview/README.md)
-  * [Notes](reading-notes/System%20Design%20Interview/Notes.md)
 
 ## Others
 
