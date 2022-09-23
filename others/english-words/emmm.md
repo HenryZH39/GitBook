@@ -12,4 +12,7 @@
 * Over scale
 * malicious ticket grab 恶意抢票
 * DataBase crash
-* 
+* simultaneously 
+* redundancy
+* failover
+* parallel
