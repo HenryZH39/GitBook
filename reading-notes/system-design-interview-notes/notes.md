@@ -9,6 +9,9 @@
    - _Non-Relational databases are also called NoSQL databases._
    <br>These databases are grouped into four categories: key-value stores, graph stores, column stores, and document stores.
    <br>Example : CouchDB, Neo4j, Cassandra, HBase, Amazon DynamoDB.
+   - File system / Blob storage
+   <br> Save media file : image , audio, video
+   <br> Example: Amazon S3
 --- 
 ### Vertical vs horizontal scaling
    - _Vertical:_ adding more power (CPU, RAM, etc.) to your servers.
@@ -35,3 +38,35 @@
      - High availability : your website remains in
       operation even if a database is offline.
 ---
+### Cache 
+   - Temporary storage area that stores the result of expensive responses or frequently accessed data in memory.
+   - Cache tier: temporary data store layer
+   - Cache only store data temporarily
+   - Need to implement an expiration policy
+   - SPOF (single point of failure). Need to avoid SPOF, multiple cache servers across different data centers will be helpful.
+   - LRU cache[leetcode No.146](https://leetcode.com/problems/lru-cache/)
+---
+### CDN (Content delivery network)
+   - CDN servers cache static content like images, videos, CSS, JavaScript files, etc.
+   - Low latency : cache server close to user geographically.
+   - Autoscaling : adding or removing web servers automatically based on the traffic load.
+---
+### Multi-data Center
+   - Coult help with with technial challenges:  
+     - Traffic redirection
+     - Data synchronization
+     - Test and deployment.
+--- 
+### Message queue
+   - Durable component, stored in memory, that supports asynchronous communication
+   - When the size of the queue becomes large, more workers are added to reduce the processing time. However, if the queue is empty most of the time, the number of workers can be reduced.
+---
+### Logging, metrics, automation
+   - Logging: Monitoring error logs is important because it helps to identify errors and problems in the system.
+   - Metrics: Collecting different types of metrics help us to gain business insights and understand the health status of the system . 
+     - Host level matricss: CPU, memory, disk I/O, etc.
+     - Aggregated level metrics: performance of the entire database tier, cache tier, etc.
+     - Key business metrics: daily active users, retention, revenue, etc.
+   - Automation: build or leverage automation tools to improve productivity
+---
+### Database scaling

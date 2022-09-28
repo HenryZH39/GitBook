@@ -16,3 +16,10 @@
 * redundancy
 * failover
 * parallel
+* re-establish
+* Memcached
+* robust
+* synchronization
+* asynchronous
+* asynchronously
+* productivity
