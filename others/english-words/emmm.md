@@ -23,3 +23,6 @@
 * asynchronous
 * asynchronously
 * productivity
+* de-normalization
+* scalability
+* tedious

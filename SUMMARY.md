@@ -38,6 +38,7 @@
   * [Bit Representaion](<java/java-notes/Bit Representation.md>)
   * [Trie](java/java-notes/Trie.md)
   * [LinkedHashMap](java/java-notes/LinkedHashMap.md)
+  * [SegmentTree](java/java-notes/SegmentTree.md)
   * [TIPS](java/java-notes/Tips.md)
 
 ## SQL

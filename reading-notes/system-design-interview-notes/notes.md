@@ -69,4 +69,24 @@
      - Key business metrics: daily active users, retention, revenue, etc.
    - Automation: build or leverage automation tools to improve productivity
 ---
-### Database scaling
+### Database Scaling
+   - Sharding is a great technique to scale the database but it is far from a perfect solution.
+     - Resharding data
+     - Celebrity problem
+     - Join and de-normalization
+    - Shard databases to support rapidly increasing data traffic
+---
+### How we scale system to support millions of users
+   - Keep web tier stateless
+   - Build redundancy at every tier
+   - Cache data as much as you can
+   - Support multiple data centers
+   - Host static assets in CDN
+   - Scale your data tier by sharding
+   - Split tiers into individual services
+   - Monitor your system and use automation tools
+---
+### Calculate data volume
+- Data volume unit:
+  - 2 ^ 10, 1 Thounsand, 1 Kilobyte, 1 KB
+  - 2 ^ 20, 1 Million, 1 Megabyte, 1 MB
