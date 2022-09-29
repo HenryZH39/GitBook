@@ -1,5 +1,6 @@
 # Segment Tree
 ### Mutable tree build and udpate
+- LeetCode[307. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
 ```java
 class NumArray {
     class TreeNode {
