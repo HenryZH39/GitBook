@@ -90,3 +90,14 @@
 - Data volume unit:
   - 2 ^ 10, 1 Thounsand, 1 Kilobyte, 1 KB
   - 2 ^ 20, 1 Million, 1 Megabyte, 1 MB
+  - 2 ^ 30, 1 Billion, 1 Gigabyte, 1 GB
+  - 2 ^ 40, 1 Trillion, 1 Terabyte, 1 TB
+  - 2 ^ 50, 1 Quadrillion, 1 Petabyte, 1 PB
+---
+## 4-step process for effective system design interview
+- Step1 - Understand the problem and establish design scope
+  - Ask questions to clarify requirement:
+    - What specific features are we going to build?
+    - How fast does the company anticipate to scale up? What are the anticipated scales in 3 months, 6 months, and a year? 
+- Step2 - Propose high-level design and get buy-in
+  - 

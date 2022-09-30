@@ -16,7 +16,7 @@ help.removeFirst();
 help.peek();
 help.peekFirst();
 ```
-- Queue: First - in - Last -out
+- Queue: First - in - First -out
 ```java
 help.add(a);
 help.addLast(a);

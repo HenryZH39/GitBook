@@ -26,3 +26,10 @@
 * de-normalization
 * scalability
 * tedious
+* intimidating = scary
+* astonishing
+* scope
+* trivia 细致
+* assumption
+* anticipated 预期
+* chronological 按时间顺序的
