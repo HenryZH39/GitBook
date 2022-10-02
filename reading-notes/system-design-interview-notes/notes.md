@@ -100,4 +100,45 @@
     - What specific features are we going to build?
     - How fast does the company anticipate to scale up? What are the anticipated scales in 3 months, 6 months, and a year? 
 - Step2 - Propose high-level design and get buy-in
-  - 
+  - Initial blueprint for the designraw
+- Step3 - Desgin deep dive
+  - Identify and prioritize components in the architecture.
+- Step4 - Wrap up
+  - follow-up questions or give you the freedom to discuss other additional points
+---
+## Rate Limiter
+- Used to control the rate of traffic sent by a client or a service
+- Benefits :
+  - Prevent resource starvation caused by Denial of Service (DoS) attack
+  - Reduce cost : fewer server
+  - Prevent servers from being overloaded
+- In Microservices: API gateway
+- Algorithm : 
+  - Token bucket
+  - Leaking bucket
+  - Fixed window counter (based on timestamp)
+  - Sliding window log
+  - Sliding window counter
+- Redis is a popular option to implement rate limiting. It is an inmemory store that offers two commands: INCR and EXPIRE.
+  - INCR: It increases the stored counter by 1.
+  - EXPIRE: It sets a timeout for the counter. If the timeout expires, the counter is automatically deleted.
+- Example:
+```
+domain: auth
+descriptors:
+   - key: auth_type
+   Value: login
+   rate_limit:
+   unit: minute
+   requests_per_unit: 5
+```
+---
+## Design Consistent Hashing
+- Common way to balance the load is to use the following hash method:   
+  - serverIndex = hash(key) % N, where N is the size of the server pool.
+- Consistent hashing : when a hash table is re-sized and consistent hashing is used, only k/n keys need to be remapped on
+average, where k is the number of keys, and n is the number of slots.
+   - Use Hash ring : if add or remove server, will update client key and re-distribute
+---
+## Desgin A Key-Value Store
+- 

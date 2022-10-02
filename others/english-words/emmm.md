@@ -33,3 +33,9 @@
 * assumption
 * anticipated 预期
 * chronological 按时间顺序的
+* retrieval
+* distributed environment
+* throttled 节流
+* forged 伪造
+* malicious 恶意的
+* Consistent

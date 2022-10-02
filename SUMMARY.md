@@ -79,3 +79,4 @@
 * [English Words](others/english-words/README.md)
   * [Emmm](others/english-words/emmm.md)
   * [Daily](others/english-words/daily.md)
+* [BQ preparation](others/BQ.md)
