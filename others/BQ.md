@@ -76,12 +76,29 @@
 10. What is your favorite or least favorite thing working here?
 ---
 ### My answers:
-1. Failure: (Cutomer Obsession, Ear Trust) 
-2. Most Challenging: (Insist on the Highest Standards， Ownership，Learn and Be Curious）
-3. Miss deadline: (Customer Obsession，Deliver Results, Ownership，Dive Deep）
-4. Conflict: (Customer Obsession，Earn Trust）
-5. Took a risk, or do not have much time to make a decision: (Bias for Action，Ownership)
-6. Challenges from customers:（Customer Obsession， Earn Trust）
-7. Negative feedback:（Earn Trust）
-8. Sacrifice short for long goal:（Think Big）
-9. Tough decision: (Bias for Action)
+#### 1. Tell me about yourself: 
+- What value could you bring to the company ?
+ - I'm working as a full stack develper for about 3 years. And I'm familiar with web application development and I also have some experience in Android application Development. 
+- Your Strength
+ - I'm highly adaptable could adapt to different environment very quickly. I enjoy teamwork. I'm also team-oriented, result-oriented. I could work hard to acheive the goals. Moreover, I love challenges and enjoy learning new things .
+- Your Weakness (no need if not asked)
+ - I'm curiouse people. So if i face some new challenges , I sometimes addicted to learning new things . One time I almost missed the deadline. After that exprience, I learn to control my schedule and deliver the task first. After that, I will find some time to learn the new thing and tried to do some optimization.
+- What I am looking for ?
+ - I'm looingk for a position that I could add value to. That I could also have challenges and learn new thins.
+- Is this company or the role looking for ? (quesiton could ask to interviewer)
+#### 2. Failure: (Cutomer Obsession, Ear Trust) 
+#### 3. Most Challenging: (Insist on the Highest Standards，Ownership，Learn and Be Curious）
+#### 4. Miss deadline: (Customer Obsession，Deliver Results, Ownership，Dive Deep）
+#### 5. Conflict: (Customer Obsession，Earn Trust）
+#### 6. Took a risk, or do not have much time to make a decision: (Bias for Action，Ownership)
+#### 7. Challenges from customers:（Customer Obsession， Earn Trust）
+- 
+#### 8. Negative feedback:（Earn Trust）
+#### 9.  Sacrifice short for long goal:（Think Big）
+#### 10. Tough decision: (Bias for Action)
+#### 11. Why Amazon ?
+- Why you fit this position?
+- What is your strength or special point
+    - I really want to work here. Cause this is company with an excepional culture. My current positon is in retail industry. I knew the knowledge about ERP system, customer exprience. I also farmiliar with java servlet,spring framework. I believe I could be a qualified candidate for the position.
+- What attract you or what is your interest in the position?
+    - I use Amazon and AWS for long time and I am really interested in working in the company which changed our daily life .
