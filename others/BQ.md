@@ -63,6 +63,48 @@
 21. Tell me about yourself
 22. Why our company ?
 ---
+### My answers:
+#### 1. Tell me about yourself: 
+- What value could you bring to the company ?
+ - I'm working as a full stack develper for about 3 years. And I'm familiar with web application development and I also have some experience in Android application Development. 
+- Your Strength
+ - I'm highly adaptable could adapt to different environment very quickly. I enjoy teamwork. I'm also team-oriented, result-oriented. I could work hard to acheive the goals. Moreover, I love challenges and enjoy learning new things .
+- Your Weakness (no need if not asked) (spring framework)
+ - I'm curiouse people. So if i face some new challenges , I sometimes addicted to learning new things . One time I almost missed the deadline. After that exprience, I learn to control my schedule and deliver the task first. After that, I will find some time to learn the new thing and tried to do some optimization.
+- What I am looking for ?
+ - I'm looingk for a position that I could add value to. That I could also have challenges and learn new thins.
+- Is this company or the role looking for ? (quesiton could ask to interviewer)
+#### 2. Failure: (Cutomer Obsession, Ear Trust) 
+1. Server down and lost data:
+   - S: Relocate server from texas to wisconsin. The cooperator did not follow the contract and move earlier. Our ERP system had not been backup that month. The system down and that was Friday night.
+   - T: I was not on-call that time But I am the person who was working with the server relocate. At that time we are running a promotional event. I received serveral report for representitives. I need to make the EMS and retail website service back to online ASAP. 
+   - A: I tried to figure out the problem and it is not hard to see it is server problem. After some connection test. I called the cooperator and I fond ont emergency solution and decide to use the back up system in last month and active the backup server in our company. Fortunately, I also have my own backup for promotion part and could update.
+   The whole weekned, our team was working on re-built the whole system and tried to make every working well.
+   - R: It did help with reducing pressure for customer service and also help company minimize the loss. But we still have some inventories issue like overselling.
+   - L: From this case, I learned it is important to do backup more frequenly and when communicate with others, make sure they understand the requirement and go through whole process is possible. Moreover, do the part of work you could control as earlier as possible.
+#### 3. Most Challenging: (Insist on the Highest Standards，Ownership，Learn and Be Curious）
+1. Build new application for oversea part, change co-operator company and need to link to total diffrent web application. 
+    - A : figure out the priority and dealine for the service alpha test lauch date. Rescheduled time and try 
+    - R : finally get the service lauch before the sales season.
+#### 4. Miss deadline: (Customer Obsession，Deliver Results, Ownership，Dive Deep）
+#### 5. Conflict: (Customer Obsession，Earn Trust）
+#### 6. Took a risk, or do not have much time to make a decision: (Bias for Action，Ownership)
+#### 7. Challenges from customers:（Customer Obsession， Earn Trust）
+1. Success story:
+    - S: In last year, I 
+    - T:
+    - A:
+    - R:
+#### 8. Negative feedback:（Earn Trust）
+#### 9.  Sacrifice short for long goal:（Think Big）
+#### 10. Tough decision: (Bias for Action)
+#### 11. Why Amazon ?
+- Why you fit this position?
+- What is your strength or special point
+    - I really want to work here. Cause this is company with an excepional culture. My current positon is in retail industry. I knew the knowledge about ERP system, customer exprience. I also farmiliar with java servlet,spring framework. I believe I could be a qualified candidate for the position.
+- What attract you or what is your interest in the position?
+    - I use Amazon and AWS for long time and I am really interested in working in the company which changed our daily life .
+---
 ### Questions asked to interviewer
 1. Can you tell me more about the day-to-day responsibilities of this job?
 2. How do you define success for this position? What metrics are you using to measure my accomplishments?
@@ -75,30 +117,3 @@
 9. Why did you decide to join this company?
 10. What is your favorite or least favorite thing working here?
 ---
-### My answers:
-#### 1. Tell me about yourself: 
-- What value could you bring to the company ?
- - I'm working as a full stack develper for about 3 years. And I'm familiar with web application development and I also have some experience in Android application Development. 
-- Your Strength
- - I'm highly adaptable could adapt to different environment very quickly. I enjoy teamwork. I'm also team-oriented, result-oriented. I could work hard to acheive the goals. Moreover, I love challenges and enjoy learning new things .
-- Your Weakness (no need if not asked)
- - I'm curiouse people. So if i face some new challenges , I sometimes addicted to learning new things . One time I almost missed the deadline. After that exprience, I learn to control my schedule and deliver the task first. After that, I will find some time to learn the new thing and tried to do some optimization.
-- What I am looking for ?
- - I'm looingk for a position that I could add value to. That I could also have challenges and learn new thins.
-- Is this company or the role looking for ? (quesiton could ask to interviewer)
-#### 2. Failure: (Cutomer Obsession, Ear Trust) 
-#### 3. Most Challenging: (Insist on the Highest Standards，Ownership，Learn and Be Curious）
-#### 4. Miss deadline: (Customer Obsession，Deliver Results, Ownership，Dive Deep）
-#### 5. Conflict: (Customer Obsession，Earn Trust）
-#### 6. Took a risk, or do not have much time to make a decision: (Bias for Action，Ownership)
-#### 7. Challenges from customers:（Customer Obsession， Earn Trust）
-- 
-#### 8. Negative feedback:（Earn Trust）
-#### 9.  Sacrifice short for long goal:（Think Big）
-#### 10. Tough decision: (Bias for Action)
-#### 11. Why Amazon ?
-- Why you fit this position?
-- What is your strength or special point
-    - I really want to work here. Cause this is company with an excepional culture. My current positon is in retail industry. I knew the knowledge about ERP system, customer exprience. I also farmiliar with java servlet,spring framework. I believe I could be a qualified candidate for the position.
-- What attract you or what is your interest in the position?
-    - I use Amazon and AWS for long time and I am really interested in working in the company which changed our daily life .

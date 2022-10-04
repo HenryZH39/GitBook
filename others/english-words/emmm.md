@@ -40,3 +40,7 @@
 * malicious 恶意的
 * Consistent
 * enthusiastic 热情的
+* infeasible 不可行的
+* Heterogeneity 异质性
+* reconcile 调和
+* anti-entropy 反熵

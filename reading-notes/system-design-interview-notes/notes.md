@@ -141,4 +141,24 @@ average, where k is the number of keys, and n is the number of slots.
    - Use Hash ring : if add or remove server, will update client key and re-distribute
 ---
 ## Desgin A Key-Value Store
-- 
+- Distributed key-value store
+  - Also called a distributed hash table, which distributes keyvalue pairs across many servers
+  - Important to understand CAP (Consistency, Availability, Partition Tolerance) theorem.
+  - Real-world distributed systems In a distributed system, partitions cannot be avoided, and when a partition occurs, we must choose between consistency and availability.
+- Data partition
+  - Infeasible to fit the complete data set in a single server.
+  - Split the data into smaller partitions and store them in multiple servers
+- Consistency models
+  - Strong consistency: any read operation returns a value corresponding to the result of the most updated write data item. A client never sees out-of-date data.
+  - Weak consistency: subsequent read operations may not see the most updated value. 
+  - Eventual consistency: this is a specific form of weak consistency. Given enough time, all updates are propagated, and all replicas are consistent.
+- Inconsistency resolution: versioning
+  - Versioning system can detect conflicts and reconcile conflicts
+  - Vector clock：
+    - [server, version] pair associated with a data item
+- Handling failures
+  - Failure detection
+  - Handling temporary failures
+    - Sloppy quorum ：used to improve availability. Instead of enforcing the quorum requirement, the system chooses the first W healthy servers for writes and first R healthy servers for reads on the hash ring. Offline servers are ignored.
+  - Handling permanent failures
+    - Anti-entropy protocol：comparing each piece of data on replicas and updating each replica to the newest version. A Merkle tree is used for inconsistency detection and minimizing the amount of data transferred.
