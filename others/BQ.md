@@ -66,13 +66,13 @@
 ### My answers:
 #### 1. Tell me about yourself: 
 - What value could you bring to the company ?
- - I'm working as a full stack develper for about 3 years. And I'm familiar with web application development and I also have some experience in Android application Development. 
+    - I'm working as a full stack develper for about 3 years. And I'm familiar with web application development and I also have some experience in Android application Development. 
 - Your Strength
- - I'm highly adaptable could adapt to different environment very quickly. I enjoy teamwork. I'm also team-oriented, result-oriented. I could work hard to acheive the goals. Moreover, I love challenges and enjoy learning new things .
+   - I'm highly adaptable could adapt to different environment very quickly. I enjoy teamwork. I'm also team-oriented, result-oriented. I could work hard to acheive the goals. Moreover, I love challenges and enjoy learning new things .
 - Your Weakness (no need if not asked) (spring framework)
- - I'm curiouse people. So if i face some new challenges , I sometimes addicted to learning new things . One time I almost missed the deadline. After that exprience, I learn to control my schedule and deliver the task first. After that, I will find some time to learn the new thing and tried to do some optimization.
+   - I'm curiouse people. So if i face some new challenges , I sometimes addicted to learning new things . One time I almost missed the deadline. After that exprience, I learn to control my schedule and deliver the task first. After that, I will find some time to learn the new thing and tried to do some optimization.
 - What I am looking for ?
- - I'm looingk for a position that I could add value to. That I could also have challenges and learn new thins.
+   - I'm looingk for a position that I could add value to. That I could also have challenges and learn new thins.
 - Is this company or the role looking for ? (quesiton could ask to interviewer)
 #### 2. Failure: (Cutomer Obsession, Ear Trust) 
 1. Server down and lost data:

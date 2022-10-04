@@ -162,3 +162,7 @@ average, where k is the number of keys, and n is the number of slots.
     - Sloppy quorum ：used to improve availability. Instead of enforcing the quorum requirement, the system chooses the first W healthy servers for writes and first R healthy servers for reads on the hash ring. Offline servers are ignored.
   - Handling permanent failures
     - Anti-entropy protocol：comparing each piece of data on replicas and updating each replica to the newest version. A Merkle tree is used for inconsistency detection and minimizing the amount of data transferred.
+  - Handling data center outage
+    - Important to replicate data across multiple data centers
+  - System architecture
+    - <img src = "reading-notes/system-design-interview-notes/SystemArchitechture.jpg" style="display: inline-block; margin: 0 auto; max-width: 300px"> </img>
