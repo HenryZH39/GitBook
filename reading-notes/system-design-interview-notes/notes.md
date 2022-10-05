@@ -136,8 +136,7 @@ descriptors:
 ## Design Consistent Hashing
 - Common way to balance the load is to use the following hash method:   
   - serverIndex = hash(key) % N, where N is the size of the server pool.
-- Consistent hashing : when a hash table is re-sized and consistent hashing is used, only k/n keys need to be remapped on
-average, where k is the number of keys, and n is the number of slots.
+- Consistent hashing : when a hash table is re-sized and consistent hashing is used, only k/n keys need to be remapped on average, where k is the number of keys, and n is the number of slots.
    - Use Hash ring : if add or remove server, will update client key and re-distribute
 ---
 ## Desgin A Key-Value Store
@@ -164,5 +163,92 @@ average, where k is the number of keys, and n is the number of slots.
     - Anti-entropy protocol：comparing each piece of data on replicas and updating each replica to the newest version. A Merkle tree is used for inconsistency detection and minimizing the amount of data transferred.
   - Handling data center outage
     - Important to replicate data across multiple data centers
-  - System architecture
-    - <img src = "reading-notes/system-design-interview-notes/SystemArchitechture.jpg" style="display: inline-block; margin: 0 auto; max-width: 300px"> </img>
+- Summary: 
+  1. Ability to store data: Use consistent hasing to spread the load across servers
+  2. High availability read: Data replication multi-data center setup
+  3. Highly available writes: Versioning and conflict resolution with vertor clocks
+  4. Dataset partition: Consistent Hashing
+  5. Incremental scalability: Consistent Hashing
+  6. Heterogeneity: Consistent Hashing
+  7. Tunable consistency: Quorum consensus
+  8. Handling temporary failures: Sloppy quorum and hinted handoff
+  9. Handling permanent failures: Merkle tree
+  10. Handling data center outage: Cross-data center replication
+---
+## Design A Unique ID Generator in Distributed Systems
+- Step 1 Understand the problem and establish design scope
+  - Feature for IDs 
+  - The create rules : increase by 1 ? number or characters ? length ?
+  - Scale of the using system
+- Step 2 Propose high-level design and get buy-in
+  - Multi-master replication
+    - Use MySQL 'auto_increment' feature, increase by k(number of database in use)
+    - Drwabacks :
+       1. Hard to scale with multiple data centers
+       2. IDs do not go up with time across multiple servers.
+       3. It does not scale well when a server is added or removed.
+  - Universally unique identifier (UUID) 128bits
+    - can be generated independently without coordination between servers.
+  - Ticket server
+    - Use a centralized auto_increment feature in a single database server
+    - single database server means not stable and could not tolerate failure
+  - Twitter snowflake approach
+    - Divide an ID into different sections
+    - Each section is explained below:
+       1. Sign bit: 1 bit. It will always be 0. This is reserved for future uses. It can potentially be used to distinguish between signed and unsigned numbers.
+       2. Timestamp: 41 bits. Milliseconds since the epoch or custom epoch. We use Twitter snowflake default epoch 1288834974657, equivalent to Nov 04, 2010, 01:42:54 UTC.
+       3. Datacenter ID: 5 bits, which gives us 2 ^ 5 = 32 datacenters.
+       4. Machine ID: 5 bits, which gives us 2 ^ 5 = 32 machines per datacenter.
+       5. Sequence number: 12 bits. For every ID generated on that machine/process, the sequence number is incremented by 1. The number is reset to 0 every millisecond.
+- Step 3 Design deep dive
+   - As timestamps grow with time, IDs are sortable by time.
+   - After 69 years, we will need a new epoch time or adopt other techniques to migrate IDs.
+- Step 4 Wrap up
+  - Clock synchronization
+  - Section length tuning
+  - High availability
+---
+## Design A Notification System
+- IOS push notification:
+ - Provider -> APNs -> IOS Device
+ - Provide: builds and send notification
+ - APNs: Apple Push Notification Service, remote service provided by Apple
+- Android push notification:
+  - Provider -> FCM -> Android Device
+  - FCM: Firebase Cloud Messaging
+- SMS message:
+  - Provider -> SMS service -> SMS
+- Email:
+  - Provider -> Email servers/ service -> Email
+- Services -> Notification System -> APNs/ FCM etc. -> clients
+- For scalebility:
+  - add cache and db for noification service 
+  - add message queue and service before sent to third party service
+  - add database to save the fail operation 
+- Rate limiting 
+- Retry mechanism
+- Horizental scaling: automatic add or remove service if there is too many queries 
+- Analytics service: need to have events tracking. like open ? click ? unsubscribe?
+---
+## Design A Chat System
+- Time-tested HTTP protocol
+- Polling: technique that the client periodically asks the server if there are messages available
+- Long polling: a client holds the connection open until there are actually new messages available or a timeout threshold has been reached
+- WebSocket connection: solution for sending asynchronous updates from server to client. Once connection estimated. Could still work using port 80 and 443 for both sender and receiver
+- Storge: Two types of data exist in a typical chat system
+  - Generic data: User profile, setting, friends list. Data replication and sharding satisfy availability and scalability
+  - Chat history data: key-value stores. 
+    - allow easy horizontal scaling
+    - provide low latency 
+    - Relational databases do not handle long tail of data well. When the indexes grow large, random access is expensive.
+    - Adopted by other proven reliable chat applications.
+- Service discovery
+  - Apache Zookeeper: open-source solution for service discovery
+- Message flows
+  - when A send message to chat server . server will get an ID for the message and save the value<ID, message> in KV store.
+  Then put id in message queue. Then presen sever will check user B is online / offline. online : send ID to server 2 and user B could get message. offline : send notification to user B .
+- Message synchronization across multiple devices
+  - The recipient ID is equal to the currently logged-in user ID.
+  - Message ID in the key-value store is larger than cur_max_message_id .
+- Heartbeat mechanism
+  - an online client sends a heartbeat event to presence servers. If presence servers receive a heartbeat event within a certain time, say x seconds from the client, a user is considered as online. Otherwise, it is offline.

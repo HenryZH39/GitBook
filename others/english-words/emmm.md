@@ -44,3 +44,8 @@
 * Heterogeneity 异质性
 * reconcile 调和
 * anti-entropy 反熵
+* chronological 按时间顺序
+* monolith 
+* periodic
+* criteria = standard
+* encryption
