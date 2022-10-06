@@ -66,11 +66,14 @@
 ### My answers:
 #### 1. Tell me about yourself: 
 - What value could you bring to the company ?
-    - I'm working as a full stack develper for about 3 years. And I'm familiar with web application development and I also have some experience in Android application Development. 
+    - I'm working as a full stack develper in Retail company for about 3 years. And I'm familiar with ERP system, web application development, and I also have some experience in Android application Development. 
 - Your Strength
-   - I'm highly adaptable could adapt to different environment very quickly. I enjoy teamwork. I'm also team-oriented, result-oriented. I could work hard to acheive the goals. Moreover, I love challenges and enjoy learning new things .
+   - I'm highly adaptable and willing communicte with internal or external customer. Cause when working for ERP system, you need to communicate with a lot of other departments, like product department, Markting deparment, Iventory department. They did help improve the communication skills and I did help me learn the different working process. So I enjoy teamwork. I love challenges and enjoy learning new things .
+   - For small - medium company, the tech - stack was outdated and pretty hard to make large change on it. So I did want to find a new role could have more chanllenges 
 - Your Weakness (no need if not asked) (spring framework)
-   - I'm curiouse people. So if i face some new challenges , I sometimes addicted to learning new things . One time I almost missed the deadline. After that exprience, I learn to control my schedule and deliver the task first. After that, I will find some time to learn the new thing and tried to do some optimization.
+   - I have had trouble in the past with planning and prioritization. So if i face some new challenges , I sometimes addicted to learning new things . One time I almost missed the deadline. After that exprience, I learn to control my schedule and deliver the task first. After that, I will find some time to learn the new thing and tried to do some optimization.
+   - learn spring framwrok miss deadline for test 
+   - peak time too many works and pressure. make clear and asked for help
 - What I am looking for ?
    - I'm looingk for a position that I could add value to. That I could also have challenges and learn new thins.
 - Is this company or the role looking for ? (quesiton could ask to interviewer)
@@ -83,19 +86,22 @@
    - R: It did help with reducing pressure for customer service and also help company minimize the loss. But we still have some inventories issue like overselling.
    - L: From this case, I learned it is important to do backup more frequenly and when communicate with others, make sure they understand the requirement and go through whole process is possible. Moreover, do the part of work you could control as earlier as possible.
 #### 3. Most Challenging: (Insist on the Highest Standards，Ownership，Learn and Be Curious）
-1. Build new application for oversea part, change co-operator company and need to link to total diffrent web application. 
-    - A : figure out the priority and dealine for the service alpha test lauch date. Rescheduled time and try 
-    - R : finally get the service lauch before the sales season.
+1. Build new application 
+    - S : Build new project for oversea retail, due to tax policy issue. Have to change co-operator company cause api, data structure was totally different.
+    - T : This should not be a very large project and I take reponsible for the task. I need to communicate with the co-worker and have to work night due to the different time zone. Hard time , mid night have meeting. Due to firewall in China..
+    - A : Communicate with market team and my manager tot figure out the priority of each part of work. cause it also affect front side test. Finally I catch the dealine for the service alpha test lauch date. 
+    - R : finally get the service lauch before the sales season. Earn trust and catch the deadline
 #### 4. Miss deadline: (Customer Obsession，Deliver Results, Ownership，Dive Deep）
 #### 5. Conflict: (Customer Obsession，Earn Trust）
 #### 6. Took a risk, or do not have much time to make a decision: (Bias for Action，Ownership)
 #### 7. Challenges from customers:（Customer Obsession， Earn Trust）
-1. Success story:
-    - S: In last year, I 
-    - T:
-    - A:
-    - R:
 #### 8. Negative feedback:（Earn Trust）
+1. Success story:
+    - S: In last year, The company decide to sell fresh product and need to develop a new service for the fresh product process. I thought it is not that hard and develop the serive quickly. But get negtive feed back from production deparment manager
+    - T: It is to track the Inventories for the fresh product from receiving as raw material to product. I did not know there will have different products and there will be have loss during production process. 
+    - A: I communicated with the production department and clarify the requirement and add more manully inpute part for them to adjust the loss. Also knew they also prefer a lot-number and barcode record.
+    - R: Did thanks for my effor through email
+    - L: communication is important, to understand customer is more important than delivery result rapidly.
 #### 9.  Sacrifice short for long goal:（Think Big）
 #### 10. Tough decision: (Bias for Action)
 #### 11. Why Amazon ?
