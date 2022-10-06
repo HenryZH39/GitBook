@@ -106,7 +106,7 @@
 - S: Different department send mass email or customer on their own schudele and customer might receive serveral notification at same day even same time. 
 - T: Help maintain the tool contact with constant contact
 - A: I suggest to add rate limiter internal to reduce the frequency customer receive notification
-- R: improve customer expirience and stickiness. reduce customer un-subscribe rate
+- R: improve customer expirience and stickiness. reduce customer un-subscribe rate , using redis  INCR and EXPIRE
 #### 10. Tough decision: (Bias for Action)
 #### 11. Why Amazon ?
 - Why you fit this position?
